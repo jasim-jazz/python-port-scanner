@@ -1,4 +1,4 @@
-# 🚀 Advanced Python Port Scanner
+#  Advanced Python Port Scanner
 
 A powerful and fast **multi-threaded port scanner** built in Python with support for **banner grabbing**, **service detection**, and **CLI-based customization**.
 
@@ -6,26 +6,26 @@ This tool is designed for **network reconnaissance** and learning purposes in cy
 
 ---
 
-## 📌 Features
+##  Features
 
-* ⚡ Multi-threaded scanning (fast performance)
-* 🔍 Scans custom port ranges
-* 🏷️ Basic service detection (common ports)
-* 📡 Banner grabbing (identifies running services)
-* 🧠 CLI arguments using argparse
-* 💾 Save scan results to a file
-* 🛠️ Simple and clean output
+*  Multi-threaded scanning (fast performance)
+*  Scans custom port ranges
+*  Basic service detection (common ports)
+*  Banner grabbing (identifies running services)
+*  CLI arguments using argparse
+*  Save scan results to a file
+*  Simple and clean output
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 * Python 3.x
 * No external libraries required (uses built-in modules)
 
 ---
 
-## ▶️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/python-port-scanner.git
@@ -34,7 +34,7 @@ cd python-port-scanner
 
 ---
 
-## ⚙️ Usage
+##  Usage
 
 ```bash
 python3 scanner.py <target> [options]
@@ -42,7 +42,7 @@ python3 scanner.py <target> [options]
 
 ---
 
-## 📖 Arguments Explained
+##  Arguments Explained
 
 | Argument        | Description                      |
 | --------------- | -------------------------------- |
@@ -53,7 +53,7 @@ python3 scanner.py <target> [options]
 
 ---
 
-## 🧪 Examples
+##  Examples
 
 ### 🔹 Basic Scan
 
@@ -95,7 +95,7 @@ python3 scanner.py scanme.nmap.org -p 1-1000 -t 200 -o scan.txt
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Takes a target (IP/domain)
 2. Scans ports using multi-threading
@@ -106,7 +106,7 @@ python3 scanner.py scanme.nmap.org -p 1-1000 -t 200 -o scan.txt
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 ```
 [+] Port 80 OPEN | Service: HTTP
@@ -118,7 +118,7 @@ python3 scanner.py scanme.nmap.org -p 1-1000 -t 200 -o scan.txt
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This tool is intended for **educational purposes only**.
 
@@ -129,7 +129,7 @@ Unauthorized scanning is illegal.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Mohamed Jasim**
 
@@ -138,7 +138,7 @@ Unauthorized scanning is illegal.
 
 ---
 
-## ⭐ Future Improvements
+##  Future Improvements
 
 * TCP SYN scan (Scapy)
 * Service version detection
@@ -148,7 +148,7 @@ Unauthorized scanning is illegal.
 
 ---
 
-## 🌟 If you like this project
+##  If you like this project
 
 Give it a ⭐ on GitHub!
 
